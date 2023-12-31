@@ -9,7 +9,7 @@ const UserImage = ({ image, size = "60px" }) => {
           width={size}
           height={size}
           alt="user"
-          src={`https://santhosh-social-media-backend.vercel.app//assets/${image}`}
+          src={`https://santhosh-social-media-backend.vercel.app/assets/${image}`}
         />
       </Box>
     );
