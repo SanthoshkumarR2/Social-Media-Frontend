@@ -64,7 +64,7 @@ const Form = () => {
       password: values.password,
       location: values.location,
       occupation: values.occupation,
-      picturePath: values.picture ? values.picture.name : "", // Assuming picture is an object with a 'name' property
+      picturePath: values.picture , // Assuming picture is an object with a 'name' property
     };
   
     const savedUserResponse = await fetch(
